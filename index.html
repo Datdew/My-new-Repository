@@ -2,74 +2,74 @@
 <html>
 
 <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
-    <link rel="stylesheet" href="src/styles.css" />
-    <meta charset="UTF-8" />
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <title>Week 5 Assignment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <link rel="stylesheet" href="src/styles.css" />
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <title>Week 5 Assignment</title>
 </head>
 
 <body>
-    <div class="container">
-        <div id="weather-app">
-            <form class="search-form" id="search-form">
-                <div class="row">
-                    <div class="col-6">
-                        <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off"
-                            id="search-input" class="form-control shadow-sm" />
-                    </div>
-                    <div class="col-3">
-                        <input type="submit" value="Search" class="form-control btn btn-primary" />
-                    </div>
-                    <div class="col-3">
-                        <button class="btn btn-success " id="current-location-button">
-                            Current
-                        </button>
-
-                    </div>
-                </div>
-        </div>
-        </form>
-        <h1 id="city"></h1>
-        <h4 id="date">
-        </h4>
-        <h4 id="description">
-            Partly Cloudy
-        </h4>
-
+  <div class="container">
+    <div id="weather-app">
+      <form class="search-form" id="search-form">
         <div class="row">
-            <div class="col-6">
-                <div class="prefix">
-                    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Cloudy icon"
-                        class="weather-icon float-left" />
-                    <div class="float-left">
-                        <span class="temperature" id="temperature">19</span>
-                        <span class="unit">
-                            <a href="#" id="celcius-link">°C</a> |
-                            <a href="#" id="fahrenheit-link">°F</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-5">
-                <ul>
-                    <li>
-                        Precipitation: 0%
-                    </li>
-                    <li>
-                        Humidity:<span id="humidity">77</span>%
-                    </li>
-                    <li>
-                        Wind Speed:<span id="wind">8</span>km/h
-                    </li>
-                </ul>
-            </div>
+          <div class="col-6">
+            <input type="search" placeholder="Type a city.." autofocus="on" autocomplete="off" id="search-input"
+              class="form-control shadow-sm" />
+          </div>
+          <div class="col-3">
+            <input type="submit" value="Search" class="form-control btn btn-primary" />
+          </div>
+          <div class="col-3">
+            <button class="btn btn-success " id="current-location-button">
+              Current
+            </button>
+
+          </div>
         </div>
     </div>
-    </div>
+    </form>
+    <h1 id="city"></h1>
+    <h4 id="date">
+    </h4>
+    <h4 id="description">
+      Partly Cloudy
+    </h4>
 
-    <script src="src/script.js"></script>
+    <div class="row">
+      <div class="col-6">
+        <div class="prefix">
+          <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Cloudy icon"
+            class="weather-icon float-left" />
+          <div class="float-left">
+            <span class="temperature" id="temperature">19</span>
+            <span class="unit">
+              <a href="#" id="celcius-link">°C</a> |
+              <a href="#" id="fahrenheit-link">°F</a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="col-5">
+        <ul>
+          <li>
+            Precipitation: 0%
+          </li>
+          <li>
+            Humidity:<span id="humidity">77</span>%
+          </li>
+          <li>
+            Wind Speed:<span id="wind">8</span>km/h
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="src/script.js"></script>
 </body>
 
 </html>
