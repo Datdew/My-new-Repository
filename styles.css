@@ -150,6 +150,10 @@ clearfix::after {
   padding-left: 15px;
 }
 
+.source-link {
+  display: block;
+  text-align: justify;
+}
 
 .Name{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
