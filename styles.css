@@ -149,13 +149,10 @@ clearfix::after {
   padding-right: 25px;
   padding-left: 15px;
 }
-.href {
-display: block;
-margin: 0 auto;
-font-style: italic;
-}
+
 
 .Name{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 10px;
+  font-size: large;
+  font-weight: bold;
 }
