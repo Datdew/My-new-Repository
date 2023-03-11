@@ -22,6 +22,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+  margin-bottom: 10px;
   border: 1px solid #dadde1;
   border-radius: 10px;
 }
@@ -151,12 +152,17 @@ clearfix::after {
 }
 
 .source-link {
- margin: 0 auto;
+  position: relative;
   text-align: center;
+  color: gray;
+  
 }
 
-.Name{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: large;
-  font-weight: bold;
+.openSource {
+position: relative;
+  color: blueviolet;
+  margin-left: 380px;
+  
+  
+  
 }
