@@ -155,14 +155,10 @@ clearfix::after {
   position: relative;
   text-align: center;
   color: gray;
-  
 }
 
 .openSource {
-position: relative;
+  position: relative;
   color: blueviolet;
   margin-left: 380px;
-  
-  
-  
 }
